@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-tsx",
+    "path": "/category/javascript/",
+    "result": {"data":{"allMarkdownRemark":{"group":[{"fieldValue":"Javascript","totalCount":1}],"totalCount":1,"edges":[{"node":{"id":"d23d9c5d-e25b-5e4e-b6ea-798dd56f7261","frontmatter":{"title":"Javascript Basic","category":"Javascript","date":"2022-06-23","desc":"ES6 자바스크립트","thumbnail":{"childImageSharp":{"id":"281c86df-7ce5-5b72-8a9c-0a6d54b81931"},"base":"js.png"},"alt":"apple big sur gradient"},"fields":{"slug":"/blog/Javascript-Basic/"}}}]}},"pageContext":{"category":"Javascript"}},
+    "staticQueryHashes": ["1840460387","48878111"]}
