@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Jun 2022 12:33:03 GMT</lastBuildDate><item><title><![CDATA[HTTP 기본]]></title><description><![CDATA[HTTP 기본 - HTTP(HyperText Transfer Protocol) - HTTP에 모든 것(HTML, TEXT, 이미지, 음성, 영상, 파일, json, XML)을 담아서 전송 - 클라이언트 서버 구조 - 무상태 프로토콜(Stateless…]]></description><link>https://portfolioexpert.github.io/blog/HTTPBasic/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTPBasic/</guid><pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;HTTP 기본&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 26 Jun 2022 14:21:15 GMT</lastBuildDate><item><title><![CDATA[HTTP 기본]]></title><description><![CDATA[HTTP 기본 - HTTP(HyperText Transfer Protocol) - HTTP에 모든 것(HTML, TEXT, 이미지, 음성, 영상, 파일, json, XML)을 담아서 전송 - 클라이언트 서버 구조 - 무상태 프로토콜(Stateless…]]></description><link>https://portfolioexpert.github.io/blog/HTTPBasic/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTPBasic/</guid><pubDate>Sun, 26 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;HTTP 기본&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;- HTTP(HyperText Transfer Protocol)&lt;/p&gt;
@@ -118,6 +118,160 @@
 &lt;p&gt;- 메시지 바디: 실제 전송할 데이터, HTML, 이미지, 영상, JSON 등등 byte로 표현된 모든 데이터&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[인터넷 네트워크]]></title><description><![CDATA[인터넷 네트워크 1. 인터넷 프로토콜 - 출발지 ip, 목적지 ip…]]></description><link>https://portfolioexpert.github.io/blog/InternetNetwork/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/InternetNetwork/</guid><pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;인터넷 네트워크&lt;/h2&gt;
+&lt;h3&gt;1. 인터넷 프로토콜&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 출발지 ip, 목적지 ip, 전송데이터 등을 패킷화 시켜 보내는 것&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 한계점&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 비연결성 - 패킷을 받을 대상이 없거나 서비스 불능 상태여도 패킷을 전송&lt;/li&gt;
+&lt;li&gt;- 비신뢰성 - 중간에 패킷 소실, 패킷이 순서대로 오지 않을 때&lt;/li&gt;
+&lt;li&gt;- 같은 IP를 사용하는 서버에서 통신하는 애플리케이션 둘 이상 일 경우&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. TCP -&gt; IP의 문제점을 해결해준다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- TCP/IP: 출발지 port, 목적지 port, 전송제어, 순서, 검증 정보, 전송 데이터 등을 세그먼트로 감싸는 것&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 연결지향 - TCP 3 way handshake(가상 연결)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 데이터 전달 보증&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 순서 보장&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 신뢰할 수 있는 프로토콜&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 대부분 TCP 사용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- TCP 3 way handshake: SYN(접속 요청) -&gt; SYN+ACK(요청수락, 서버 접속 요청) -&gt; ACK(클라이언트 수락, 데이터도 전송가능)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 진짜 연결이 아닌 논리적 연결&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. UDP&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;- 하얀 도화지에 비유(기능이 거의 없다)&lt;/li&gt;
+&lt;li&gt;- 데이터 전달 및 순서가 보장되지 않지만, 단순하고 빠름&lt;/li&gt;
+&lt;li&gt;- IP와 거의 같지만 port, 체크섬(순환 중복 검사) 정도가 있다.&lt;/li&gt;
+&lt;li&gt;- 애플리케이션에서 추가 작업이 필요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. PORT&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;- 같은 IP 내에서 프로세스를 구분하는 것&lt;/li&gt;
+&lt;li&gt;- IP가 아파트면 PORT는 몇 동, 몇 호&lt;/li&gt;
+&lt;li&gt;- 0~65535 할당 가능&lt;/li&gt;
+&lt;li&gt;- 0~1023: 잘 알려진 포트, 사용하지 않는 것이 좋다.&lt;/li&gt;
+&lt;li&gt;- FTP - 20, 21&lt;/li&gt;
+&lt;li&gt;- TELNET - 23&lt;/li&gt;
+&lt;li&gt;- HTTP - 80&lt;/li&gt;
+&lt;li&gt;- HTTPS - 443&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. DNS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;- DNS 서버: 도메인 명을 IP로 바꿔주도록 하는 테이블&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&gt; IP는 변경될 수 있다, IP는 기억하기 어렵다 라는 것을 해결.&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
     overflow: auto;
