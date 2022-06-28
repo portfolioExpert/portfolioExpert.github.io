@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Jun 2022 13:01:46 GMT</lastBuildDate><item><title><![CDATA[React란]]></title><description><![CDATA[리액트란 무엇인가 - 자동으로 업데이트 되는 UI - UI = render(state) - Render 함수는 순수 함수로 작성 -> 랜덤함수 사용 X, 외부 상태 변경 X -> 순수함수 - State…]]></description><link>https://portfolioexpert.github.io/blog/AboutReact/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/AboutReact/</guid><pubDate>Mon, 27 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;리액트란 무엇인가&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 28 Jun 2022 14:23:51 GMT</lastBuildDate><item><title><![CDATA[Webpack]]></title><description><![CDATA[웹팩 - 파일 내용을 기반으로 파일 이름에 해시값 추가 => 효율적으로 브라우저 캐싱 이용 - 사용되지 않은 코드 제거 - 자바스크립트 파일 압축 - JS에서 CSS, JSON…]]></description><link>https://portfolioexpert.github.io/blog/ReactWebpack/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/ReactWebpack/</guid><pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;웹팩&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;- 파일 내용을 기반으로 파일 이름에 해시값 추가 =&gt; 효율적으로 브라우저 캐싱 이용&lt;/li&gt;
+&lt;li&gt;- 사용되지 않은 코드 제거&lt;/li&gt;
+&lt;li&gt;- 자바스크립트 파일 압축&lt;/li&gt;
+&lt;li&gt;- JS에서 CSS, JSON, 텍스트 파일 등을 일반 모듈처럼 불러오기&lt;/li&gt;
+&lt;li&gt;- 환경 변수 주입&lt;/li&gt;
+&lt;li&gt;- 모듈 시스템(ESM(ES6에 추가), commonJS(노드))을 사용하고 싶어서&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[React란]]></title><description><![CDATA[리액트란 무엇인가 - 자동으로 업데이트 되는 UI - UI = render(state) - Render 함수는 순수 함수로 작성 -> 랜덤함수 사용 X, 외부 상태 변경 X -> 순수함수 - State…]]></description><link>https://portfolioexpert.github.io/blog/AboutReact/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/AboutReact/</guid><pubDate>Mon, 27 Jun 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;리액트란 무엇인가&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;- 자동으로 업데이트 되는 UI&lt;/li&gt;
 &lt;li&gt;- UI = render(state)&lt;/li&gt;
