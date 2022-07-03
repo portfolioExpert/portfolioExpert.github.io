@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Jul 2022 09:40:55 GMT</lastBuildDate><item><title><![CDATA[Generator & Iterator]]></title><description><![CDATA[제너레이터와 이터레이터 1. 제너레이터와 이터레이터 - 제너레이터: 이터레이터이자 이터러블을 생성하는 함수 - 제너레이터는 마지막 done이 true가 되면서 return…]]></description><link>https://portfolioexpert.github.io/blog/Generator&amp;Iterator/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/Generator&amp;Iterator/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;제너레이터와 이터레이터&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Jul 2022 14:37:52 GMT</lastBuildDate><item><title><![CDATA[URI와 웹 브라우저 요청 흐름]]></title><description><![CDATA[URI와 웹 브라우저 요청 흐름 1. URI(Uniform Resource Identifier) Uniform: 리소스 식별하는 통일된 방식 Resource: 자원, URI로 식별할 수 있는 모든 것(제한 없음) Identifier…]]></description><link>https://portfolioexpert.github.io/blog/URI/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/URI/</guid><pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;URI와 웹 브라우저 요청 흐름&lt;/h2&gt;
+&lt;h3&gt;1. URI(Uniform Resource Identifier)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Uniform: 리소스 식별하는 통일된 방식&lt;/li&gt;
+&lt;li&gt;Resource: 자원, URI로 식별할 수 있는 모든 것(제한 없음)&lt;/li&gt;
+&lt;li&gt;Identifier: 다른 항목과 구분하는데 필요한 정보&lt;/li&gt;
+&lt;li&gt;URL(Uniform Resource Locator): 리소스가 있는 위치를 지정&lt;/li&gt;
+&lt;li&gt;URN(Uniform Resource Name): 리소스에 이름을 부여&lt;/li&gt;
+&lt;li&gt;위치는 변할 수 있지만, 이름은 변하지 않는다&lt;/li&gt;
+&lt;li&gt;단, URN 이름만으로 실제 리소스를 찾을 수 있는 방법이 보편화 되지 않았다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;문법&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.google.com:443/search?q=hello&amp;#x26;hl=ko&quot;&gt;https://www.google.com:443/search?q=hello&amp;#x26;hl=ko&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프로토콜(https): 어떤 방식으로 자원에 접근할 것인가 하는 약속 규칙 ex) http, https, ftp&lt;/li&gt;
+&lt;li&gt;호스트명(&lt;a href=&quot;http://www.google.com&quot;&gt;www.google.com&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;포트번호(443) - 접속 포트&lt;/li&gt;
+&lt;li&gt;패스(/search) - 리소스 경로(path), 계층적 구조&lt;/li&gt;
+&lt;li&gt;쿼리 파라미터(q=hello&amp;#x26;hl=ko): key=value 형태, ?로 시작, &amp;#x26;로 추가 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. 웹 브라우저 요청 흐름&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP 메시지 전송: TCP 3 way handshake로 연결 -&gt; SOCKET 라이브러리를 통해 전달 -&gt; TCP/IP 패킷 생성, HTTP 메시지 포함 -&gt; 인터넷을 통해 서버에 전달 -&gt; http 응답 메시지를 제작 -&gt; 응답 메시지를 웹에 뿌려줌&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Generator & Iterator]]></title><description><![CDATA[제너레이터와 이터레이터 1. 제너레이터와 이터레이터 - 제너레이터: 이터레이터이자 이터러블을 생성하는 함수 - 제너레이터는 마지막 done이 true가 되면서 return…]]></description><link>https://portfolioexpert.github.io/blog/Generator&amp;Iterator/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/Generator&amp;Iterator/</guid><pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;제너레이터와 이터레이터&lt;/h2&gt;
 &lt;h3&gt;1. 제너레이터와 이터레이터&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;- 제너레이터: 이터레이터이자 이터러블을 생성하는 함수&lt;/li&gt;
