@@ -1,4 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Jul 2022 14:54:02 GMT</lastBuildDate><item><title><![CDATA[URI와 웹 브라우저 요청 흐름]]></title><description><![CDATA[URI와 웹 브라우저 요청 흐름 1. URI(Uniform Resource Identifier) - Uniform: 리소스 식별하는 통일된 방식 - Resource: 자원, URI로 식별할 수 있는 모든 것(제한 없음) - Identifier…]]></description><link>https://portfolioexpert.github.io/blog/URI/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/URI/</guid><pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;URI와 웹 브라우저 요청 흐름&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 04 Jul 2022 12:54:30 GMT</lastBuildDate><item><title><![CDATA[HTTP Method]]></title><description><![CDATA[HTTP 메서드 1. HTTP API를 만들기 가장 중요한 것은 리소스를 식별하는 것 - 리소스는 명사(회원), 행위는 동사(조회, 등록, 수정, 삭제) - URI는 리소스만 식별 메소드 종류 - GET: 리소스 조회 - POST…]]></description><link>https://portfolioexpert.github.io/blog/HTTPMethod/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTPMethod/</guid><pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;HTTP 메서드&lt;/h2&gt;
+&lt;h3&gt;1. HTTP API를 만들기&lt;/h3&gt;
+&lt;p&gt;가장 중요한 것은 리소스를 식별하는 것&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 리소스는 명사(회원), 행위는 동사(조회, 등록, 수정, 삭제)&lt;/li&gt;
+&lt;li&gt;- URI는 리소스만 식별&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;메소드 종류&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;- GET: 리소스 조회&lt;/li&gt;
+&lt;li&gt;- POST: 요청 데이터 처리, 주로 등록에 사용&lt;/li&gt;
+&lt;li&gt;- PUT: 리소스를 대체, 해당 리소스가 없으면 생성&lt;/li&gt;
+&lt;li&gt;- PATCH: 리소스 부분 변경&lt;/li&gt;
+&lt;li&gt;- DELETE: 리소스 삭제&lt;/li&gt;
+&lt;li&gt;- HEAD: GET과 동일하지만 메시지 부분을 제외하고, 상태 줄과 헤더만 반환&lt;/li&gt;
+&lt;li&gt;- OPTIONS: 대상 리소스에 대한 통신 가능 옵션을 설명(CORS에서 사용)&lt;/li&gt;
+&lt;li&gt;- CONNECT: 대상 자원으로 식별되는 서버에 대한 터널을 설정&lt;/li&gt;
+&lt;li&gt;- TRACE: 대상 리소스에 대한 경로를 따라 메시지 루프백 테스트를 수행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. GET, POST&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;- GET
+&lt;ul&gt;
+&lt;li&gt;- 리소스 조회&lt;/li&gt;
+&lt;li&gt;- 서버에 전달하고 싶은 데이터는 query를 통해서 전달&lt;/li&gt;
+&lt;li&gt;- 메시지 바디를 사용해서 데이터를 전달할 수 있지만, 지원하지 않는 곳이 많아서 권장하지 않는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;- POST
+&lt;ul&gt;
+&lt;li&gt;- 요청 데이터 처리&lt;/li&gt;
+&lt;li&gt;- 메시지 바디를 통해 서버로 요청 데이터 전달&lt;/li&gt;
+&lt;li&gt;- 서버는 요청 데이터(메시지 바디를통해 들어온 데이터)를 처리&lt;/li&gt;
+&lt;li&gt;- 주로 전달된 데이터로 신규 리소스 등록, 프로세스 처리에 사용&lt;/li&gt;
+&lt;li&gt;- 새 리소스 생성(등록)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;3. PUT, PATCH, DELETE&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- PUT&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 리소스를 완전히 대체(덮어버리는 것)&lt;/li&gt;
+&lt;li&gt;- 리소스가 없으면 생성&lt;/li&gt;
+&lt;li&gt;- 클라이언트가 리소스(대체할 것이 무엇인지 알고 있다)를 식별 -&gt; POST와 차이점&lt;/li&gt;
+&lt;li&gt;- PUT은 데이터를 수정하는게 아니다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- PATCH&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 리소스 부분 변경 -&gt; PATCH를 지원하지 않는다면 POST를 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- DELETE&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 리소스 제거&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. HTTP 메서드의 속성&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 안전: 호출해도 리소스를 변경하지 않는것(GET)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 멱등: 한 번 호출이나 두 번 이상 호출의 결과가 똑같다, 외부 요인으로 중간에 리소스가 변경되는 것 까지는 고려 X -&gt; GET, PUT, DELETE&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 캐시가능: GET(URL만 key로 잡으면 된다), HEAD, POST, PATCH 캐시 가능, POST나 PATCH는 본문 내용까지 캐시 키로 고려해야 하는데, 구현이 쉽지 X&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[URI와 웹 브라우저 요청 흐름]]></title><description><![CDATA[URI와 웹 브라우저 요청 흐름 1. URI(Uniform Resource Identifier) - Uniform: 리소스 식별하는 통일된 방식 - Resource: 자원, URI로 식별할 수 있는 모든 것(제한 없음) - Identifier…]]></description><link>https://portfolioexpert.github.io/blog/URI/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/URI/</guid><pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;URI와 웹 브라우저 요청 흐름&lt;/h2&gt;
 &lt;h3&gt;1. URI(Uniform Resource Identifier)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;- Uniform: 리소스 식별하는 통일된 방식&lt;/li&gt;
