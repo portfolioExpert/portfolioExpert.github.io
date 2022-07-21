@@ -1,4 +1,251 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jul 2022 14:52:52 GMT</lastBuildDate><item><title><![CDATA[HTTP 메소드 활용]]></title><description><![CDATA[HTTP 메서드 활용 1. 클라이언트에서 서버로 데이터 전송 - 쿼리 파라미터를 통한 데이터 전송 - GET - 주로 정렬 필터 - 메시지 바디를 통한 데이터 전송 - POST, PUT, PATCH…]]></description><link>https://portfolioexpert.github.io/blog/HTTP Method Using/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTP Method Using/</guid><pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;http-메서드-활용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EB%A9%94%EC%84%9C%EB%93%9C-%ED%99%9C%EC%9A%A9&quot; aria-label=&quot;http 메서드 활용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 메서드 활용&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 21 Jul 2022 08:52:46 GMT</lastBuildDate><item><title><![CDATA[HTTP State]]></title><description><![CDATA[HTTP 상태 - 상태 코드: 클라이언트가 보낸 요청의 처리 상태를 응답해서 알려주는 기능 - 1xx: 요청이 수신되어 처리중 - 2xx: 요청 정상 처리 - 3xx(리다이렉션): 요청을 완료하려면 추가 행동이 필요 - 4xx…]]></description><link>https://portfolioexpert.github.io/blog/HTTP State/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTP State/</guid><pubDate>Thu, 21 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;http-상태&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EC%83%81%ED%83%9C&quot; aria-label=&quot;http 상태 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 상태&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 상태 코드: 클라이언트가 보낸 요청의 처리 상태를 응답해서 알려주는 기능&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 1xx: 요청이 수신되어 처리중&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 2xx: 요청 정상 처리&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 3xx(리다이렉션): 요청을 완료하려면 추가 행동이 필요&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 4xx: 클라이언트 오류, 잘못된 문법등으로 서버가 요청을 수행할 수 없음&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 5xx: 서버 오류, 서버가 정상 요청을 처리하지 못함&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;1-2xx---성공&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-2xx---%EC%84%B1%EA%B3%B5&quot; aria-label=&quot;1 2xx   성공 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 2xx - 성공&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 200 OK: 성공 메시지&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 201 Created: 요청 성공해서 새로운 리소스가 생성된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 202 Accepted: 요청이 접수되었으나 처리가 완료되지 않았다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 204 No Content: 서버가 요청을 성공적으로 수행했지만, 응답 페이로드 본문에 보낼 데이터가 없다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-3xx---리다이렉션&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-3xx---%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%EC%85%98&quot; aria-label=&quot;2 3xx   리다이렉션 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 3xx - 리다이렉션&lt;/h3&gt;
+&lt;p&gt;리다이렉트: 웹 브라우저는 3xx 응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동 -&gt; localhost:8080을 요청해도 URL이 자동으로 localhost:8080/home으로 가는것 처럼&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 영구 리다이렉션 (301, 308)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 리소스의 URI가 영구적으로 이동&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 원래 URL 사용 X, 검색 엔진 등에서도 변경 인지&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 301 Moved Permanently: 리다이렉트시 POST요청 메서드가 GET으로 변하고, 본문(바디)이 제거 될 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 308 Permanent Redirect: 301과 기능은 같음, 리다이렉트시 요청 메서드와 본문 유지 -&gt; 301의 해결법&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 일시적인 리다이렉션&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 리소스의 URI가 일시적으로 변경&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 따라서 검색 엔진 등에서 URL을 변경하면 안됨&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 302 Found: 리다이렉트시 요청 메서드가 GET으로 변하고, 본문이 제거될 수 있음&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 307 Temporary Redirect: 리다이렉트시 요청 메서드와 본문 유지(요청 메서드를 변경하면 안된다.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 303 See Other: 리다이렉트시 요청 메서드가 GET으로 변경&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- PRG: Post/Redirect/Get&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- POST로 주문후에 새로 고침으로 인한 중복 주문 방지(클라이언트에서 방지 가능)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- POST로 주문후에 주문 결과 화면을 GET 메서드로 리다이렉트&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 새로고침해도 결과 화면을 GET으로 조회&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 중복 주문 대신에 결과 화면만 GET으로 다시 요청&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- PRG 이후 리다이렉트&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- URL이 이미 POST -&gt; GET으로 리다이렉트 됨&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 새로고침해도 GET으로 결과 화면만 조회&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 정리&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 302 Found: GET으로 변할 수 있다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 307 Temporary Redirect: 메서드가 변하면 안됨&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 303 See Other -&gt; 메서드가 GET으로 변경&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-4xx---클라이언트-오류-5xx---서버-오류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-4xx---%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%98%A4%EB%A5%98-5xx---%EC%84%9C%EB%B2%84-%EC%98%A4%EB%A5%98&quot; aria-label=&quot;3 4xx   클라이언트 오류 5xx   서버 오류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 4xx - 클라이언트 오류, 5xx - 서버 오류&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 400 Bad Request : 클라이언트가 잘못된 요청을 해서 서버가 요청을 처리할 수 없음&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 요청 구문, 메시지 등등 오류&lt;/li&gt;
+&lt;li&gt;- 클라이언트는 요청 내용을 다시 검토하고, 보내야한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 401 Unauthorized: 클라이언트가 해당 리소스에 대한 인증이 필요함&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 인증 되지 않음&lt;/li&gt;
+&lt;li&gt;- 401 오류 발생시 응답에 WWW-Authenticate 헤더와 함께 인증 방법을 설명&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 403 Forbidden: 서버가 요청을 이해했지만 승인을 거부함&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;주로 인증 자격 증명은 있지만, 접근 권한이 불충분한 경우&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 404 Not Found: 요청 리소스가 서버에 없음&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 클라이언트가 권한이 부족한 리소스에 접근할 때 해당 리소스를 숨기고 싶을 때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 5xx(Server Error): 서버 오류&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;- 500 Internal Server Error: 서버 문제로 오류 발생, 애매하면 500오류&lt;/li&gt;
+&lt;li&gt;- 503 Service Unavailable: 서비스 이용 불가&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 서버가 일시적인 과부하 또는 예정된 작업으로 잠시 요청을 처리할 수 없다, Retry - After 헤더 필드로 얼마뒤에 복구되는지 보낼 수도 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[HTTP 메소드 활용]]></title><description><![CDATA[HTTP 메서드 활용 1. 클라이언트에서 서버로 데이터 전송 - 쿼리 파라미터를 통한 데이터 전송 - GET - 주로 정렬 필터 - 메시지 바디를 통한 데이터 전송 - POST, PUT, PATCH…]]></description><link>https://portfolioexpert.github.io/blog/HTTP Method Using/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTP Method Using/</guid><pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;http-메서드-활용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EB%A9%94%EC%84%9C%EB%93%9C-%ED%99%9C%EC%9A%A9&quot; aria-label=&quot;http 메서드 활용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 메서드 활용&lt;/h2&gt;
 &lt;h3 id=&quot;1-클라이언트에서-서버로-데이터-전송&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%86%A1&quot; aria-label=&quot;1 클라이언트에서 서버로 데이터 전송 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 클라이언트에서 서버로 데이터 전송&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
