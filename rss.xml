@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Jul 2022 12:50:21 GMT</lastBuildDate><item><title><![CDATA[HTTP State]]></title><description><![CDATA[HTTP 상태 - 상태 코드: 클라이언트가 보낸 요청의 처리 상태를 응답해서 알려주는 기능 - 1xx: 요청이 수신되어 처리중 - 2xx: 요청 정상 처리 - 3xx(리다이렉션): 요청을 완료하려면 추가 행동이 필요 - 4xx…]]></description><link>https://portfolioexpert.github.io/blog/HTTP State/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTP State/</guid><pubDate>Thu, 21 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;http-상태&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EC%83%81%ED%83%9C&quot; aria-label=&quot;http 상태 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 상태&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Aug 2022 08:42:39 GMT</lastBuildDate><item><title><![CDATA[useMemo 와 useCallback]]></title><description><![CDATA[useMemo & useCallback 들어가기 전 - 함수형 컴포넌트는 단지 함수. - 함수가 실행될 때마다 내부에 선언되어 있던 표현식(변수, 또다른 함수 등)도 매번 다시 선언되어 사용된다. - 컴포넌트는 자신의 state…]]></description><link>https://portfolioexpert.github.io/blog/useMemo &amp; useCallback/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/useMemo &amp; useCallback/</guid><pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;usememo--usecallback&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#usememo--usecallback&quot; aria-label=&quot;usememo  usecallback permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;useMemo &amp;#x26; useCallback&lt;/h2&gt;
+&lt;h4 id=&quot;들어가기-전&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%93%A4%EC%96%B4%EA%B0%80%EA%B8%B0-%EC%A0%84&quot; aria-label=&quot;들어가기 전 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;들어가기 전&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 함수형 컴포넌트는 단지 함수.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 함수가 실행될 때마다 내부에 선언되어 있던 표현식(변수, 또다른 함수 등)도 매번 다시 선언되어 사용된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 컴포넌트는 자신의 state가 변경되거나, 부모에게서 받은 props가 변경되었을 때마다 리렌더링 된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;usememo&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#usememo&quot; aria-label=&quot;usememo permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;useMemo&lt;/h4&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;javascript&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; React, {useMemo} &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;quot;react&amp;quot;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;const&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-1&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-9&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;useMemo&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(() &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;getColor&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(color), [color]);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;const&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-1&quot;&gt;movie&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-9&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;useMemo&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(() &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;getMovie&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(movie), [movie]);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 이 처럼 useMemo를 이용하고 의존성 배열을 추가하면 해당 상태 값이 바뀔 때만 함수를 호출해주어 렌더링 성능을 향상 시켜 준다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 단, 함수가 너무 간단하면 성능차이는 미미하지만 함수가 복잡한 경우 다시 호출하여 렌더링 시키는 것을 막을 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;usecallback&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#usecallback&quot; aria-label=&quot;usecallback permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;useCallback&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 메모리제이션된 함수를 반환한다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 이벤트 핸들러 함수나 api를 요청하는 함수로 주로 사용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 하위 컴포넌트가 React.memo() 같은 것으로 최적화 되어 있고 그 하위 컴포넌트에게 callback 함수를 props로 넘길 때, 상위 컴포넌트에서 useCallback 으로 함수를 선언하는 것이 유용하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;함수는 오로지 자기 자신만이 동일하기 때문에 상위 컴포넌트에서 callback 함수를 재선언한다면 props로 callback 함수를 넘겨 받는 하위 컴포넌트 입장에서는 props가 변경되었다고 인식한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;javascript&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; React, {useState, useCallback} &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;quot;react&amp;quot;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;const&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-1&quot;&gt;onChangeHandler&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-9&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;useCallback&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-11 grvsc-t4tStz-6&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(e.target.id &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-9&quot;&gt;===&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;quot;color&amp;quot;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;setColor&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(e.target.value);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-5 grvsc-t4tStz-9&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;setMovie&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(e.target.value);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;}, []);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .github-light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .github-light-theme .grvsc-tiszgT-5 { color: #D73A49; }
+  .github-light-theme .grvsc-tiszgT-1 { color: #000000; }
+  .github-light-theme .grvsc-tiszgT-8 { color: #032F62; }
+  .github-light-theme .grvsc-tiszgT-7 { color: #005CC5; }
+  .github-light-theme .grvsc-tiszgT-11 { color: #E36209; }
+  .github-light-theme .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(0, 0, 0, 0.05));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(0, 0, 0, 0.2));
+  }
+  body[data-theme=dark] .grvsc-ps-t4tStz { color: #ffffff; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-9 { color: #EB7E81; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-1 { color: #FFFFFF; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-10 { color: #9DCDF5; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-5 { color: #BB97E7; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-t4tStz-6 { color: #F39961; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(0, 0, 0, 0.05));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(0, 0, 0, 0.2));
+  }
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[HTTP State]]></title><description><![CDATA[HTTP 상태 - 상태 코드: 클라이언트가 보낸 요청의 처리 상태를 응답해서 알려주는 기능 - 1xx: 요청이 수신되어 처리중 - 2xx: 요청 정상 처리 - 3xx(리다이렉션): 요청을 완료하려면 추가 행동이 필요 - 4xx…]]></description><link>https://portfolioexpert.github.io/blog/HTTP State/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/HTTP State/</guid><pubDate>Thu, 21 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;http-상태&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#http-%EC%83%81%ED%83%9C&quot; aria-label=&quot;http 상태 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;HTTP 상태&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;- 상태 코드: 클라이언트가 보낸 요청의 처리 상태를 응답해서 알려주는 기능&lt;/p&gt;
