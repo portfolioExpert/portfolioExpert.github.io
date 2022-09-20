@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 19 Sep 2022 02:02:34 GMT</lastBuildDate><item><title><![CDATA[CORS에 대해서]]></title><description><![CDATA[CORS CORS 란 - 우리가 가져오는 리소스들이 안전한지 검사하는 관문 - Cross Origin Resource Sharing 발생이유 - HTML은 기본적으로 Cross-Origin 정책을 따른다 - img 태그의 src…]]></description><link>https://portfolioexpert.github.io/blog/CORS/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/CORS/</guid><pubDate>Mon, 19 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;cors&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cors&quot; aria-label=&quot;cors permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CORS&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 20 Sep 2022 08:38:42 GMT</lastBuildDate><item><title><![CDATA[React 렌더링 성능 향상]]></title><description><![CDATA[렌더링 속도를 올리기 위한 성능 최적화 방법 - 리액트는 UI 라이브러리로 가장 많은 CPU…]]></description><link>https://portfolioexpert.github.io/blog/렌더링 속도를 올리기 위한 성능 최적화 방법/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/렌더링 속도를 올리기 위한 성능 최적화 방법/</guid><pubDate>Tue, 20 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;렌더링-속도를-올리기-위한-성능-최적화-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%86%8D%EB%8F%84%EB%A5%BC-%EC%98%AC%EB%A6%AC%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;렌더링 속도를 올리기 위한 성능 최적화 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;렌더링 속도를 올리기 위한 성능 최적화 방법&lt;/h2&gt;
+&lt;img width=&quot;584&quot; alt=&quot;스크린샷 2022-03-30 오후 10 22 22&quot; src=&quot;https://user-images.githubusercontent.com/52316270/161684034-2e43799c-19dc-421a-929d-33c866c1612b.png&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 리액트는 UI 라이브러리로 가장 많은 CPU 자원을 사용하는 것은 렌더링이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 대부분의 연산은 컴포넌트 함수의 실행과 가상돔에서 발생한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 속성값이나 상태값이 변경되면 리액트가 자동으로 컴포넌트 함수를 이용해 화면을 다시 그립니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 웹 코딩을 할 때는 성능을 생각하지 말고 한 뒤 리팩토링 과정에서 성능을 어떻게 개선할지 고민해 보는 것이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;성능-개선&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0&quot; aria-label=&quot;성능 개선 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;성능 개선&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- React.memo(컴포넌트, 비교함수)를 사용하면 비교함수를 호출해 이전과 속성값이 달라졌는지 비교하여 렌더링 여부를 결정한다. 비교함수를 입력하지 않으면 react가 가지고 있는 함수를 사용.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 상태값을 불변 객체로 관리하면 렌더링 성능에 큰 도움이 된다. -&gt; 불변객체 관리는 새로운 객체를 만드는 것&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 리액트에서 key 속성 값은 가상 돔과 실제 돔 사이에 변화된 데이터만 찾도록 해준다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[CORS에 대해서]]></title><description><![CDATA[CORS CORS 란 - 우리가 가져오는 리소스들이 안전한지 검사하는 관문 - Cross Origin Resource Sharing 발생이유 - HTML은 기본적으로 Cross-Origin 정책을 따른다 - img 태그의 src…]]></description><link>https://portfolioexpert.github.io/blog/CORS/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/CORS/</guid><pubDate>Mon, 19 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;cors&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cors&quot; aria-label=&quot;cors permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CORS&lt;/h1&gt;
 &lt;h4 id=&quot;cors-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cors-%EB%9E%80&quot; aria-label=&quot;cors 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CORS 란&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -48,24 +165,24 @@
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;2. 서버는 응답헤더에 Access-Control-Allow-Origin을 담아 클라이언트에 전달&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;3. 클라이언트에서 자신이 보냈던 요청의 Origin과 서버가 보내준 Access-Control-Allow-Origin을 비교한다.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 38.036809815950924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA5ElEQVQoz5WRa07DMBCEexHS2s7bcfyOk1IEElCp9z/QoHWVSqBAy4/RWrb87ezO7vN8wevbOz7OF8jB4MBKiKoF4zUYr7A/iJvoba0/td7vXEjQNiBMC+hsfUJMR4zGQ40OXDQQZQMu6l9h34BpeQFpmp/h44IwHeHCDKUd2m7I0EFZtL16DEhunE9Q2t+AVI2N6PoRRcFQ7HnWQyOn5XQd1ycYN8G4iLqRKKs2a+vTn0CCaBtzIKsTcvWUnbG7oM1QaExJe+oUpDLoB5331snxbrobwBk+zDkI0jWgUxY1+q/DL2kZ6g/hKXMDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;access control allow origin&quot; title=&quot;access control allow origin&quot; src=&quot;/static/d53badd8a846ba05d50ad186f0863d29/a6d36/access-control-allow-origin.png&quot; srcset=&quot;/static/d53badd8a846ba05d50ad186f0863d29/222b7/access-control-allow-origin.png 163w,
-/static/d53badd8a846ba05d50ad186f0863d29/ff46a/access-control-allow-origin.png 325w,
-/static/d53badd8a846ba05d50ad186f0863d29/a6d36/access-control-allow-origin.png 650w,
-/static/d53badd8a846ba05d50ad186f0863d29/e548f/access-control-allow-origin.png 975w,
-/static/d53badd8a846ba05d50ad186f0863d29/84ee5/access-control-allow-origin.png 1076w&quot; sizes=&quot;(max-width: 650px) 100vw, 650px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 37.423312883435585%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABCUlEQVQoz42PXW+CMBhG/R1zAhYoHw0gtJQPdeqWmGUXW5b5///KWURmcNuFF0/6ps17ep5ZUVnapwPNZke7PSBVjogUYZIhZMpChMxdwdz1WXgB3jLA9fwxk3m8n+kg4FRr3k3FpzWcWjvkq7V86JK3IuOYxryqhNI/Q/1f0NvMsijh2HW8NC17U7PThmd7mRulMHFMJSVaSmLh49wAp+doGMaKqt1QmJasspS2H+Y0r0iyimWY8OAIHr0z7I7KMkqpmx5tGvJCE8WKUCaXRVfgjUaX/Cz/A7waRimltuQrM4AWzhLHFcPjjc205p/KE8OzkbH9NXWzpt/sabot6+0Bla2GD7w7gd/QZs3Bv5lMsgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;access control allow origin&quot; title=&quot;access control allow origin&quot; src=&quot;/static/fc0b75dd13a4a9e921cdb48bbee67841/a6d36/access-control-allow-origin.png&quot; srcset=&quot;/static/fc0b75dd13a4a9e921cdb48bbee67841/222b7/access-control-allow-origin.png 163w,
+/static/fc0b75dd13a4a9e921cdb48bbee67841/ff46a/access-control-allow-origin.png 325w,
+/static/fc0b75dd13a4a9e921cdb48bbee67841/a6d36/access-control-allow-origin.png 650w,
+/static/fc0b75dd13a4a9e921cdb48bbee67841/e548f/access-control-allow-origin.png 975w,
+/static/fc0b75dd13a4a9e921cdb48bbee67841/d5bfb/access-control-allow-origin.png 1072w&quot; sizes=&quot;(max-width: 650px) 100vw, 650px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;ul&gt;
 &lt;li&gt;- Response의 access-control-allow-origin&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/br&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB20lEQVQ4y41USZLbMBDTRzIeW9a+i9pl2fKMa3LJ/7+DFCDR8SGTyqGLZItEA2BTzvHkoe1nFFWDNK8RpwXSvEKSVYiTAmGU4v14xtvh9Nc4vMy5zzl7EZpuQlV3AgrjTKBJWiLLa+SlUT7NWKTUOi8bzZnjt3I/mxU1AUP04yKWQZji5PoKFvKCGJ4f4byHt4cfxNuaoxfCDxLlgzCB43ohmm5EZXoUVaukHyY4vLvfyvy3ZD9C202S3Q0X1M2AynSSE8WZ2HLj/wT3PiX340UjmRKcFuSFkZ9ZYeQZfeXBH29HMbLjH4buJtm0gwAsS4GVRrfMiJIcUZwLnGuCM8euYJFY3zMkabFJJtB0WQU2zDfN5+WO9eMLy/rAON9wu3/h8fOXik3LXWsGVQ3TFcvtU/skuW76zT/TPyXTS9Nul9WNG2sGD5P9qzUEpUrTDHB43f10FShvebysaPtJvUZA5jmWdSsQ9ivXW4EJ8/XjuZ/fHfYU0a/rQ/JYjWwpiwx4mGG9HXdL7Jx5kmCOr00M7QEGAS0rC27BmGv2FnttM1uUVjjuOXj6QQBehvWLm+iZ9YrSCKACw7x3xqgbJw7JCZD+8PrtW9VPIimeP4XX18AXdPjm1fCl/Aby97EHDDh6TAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;origin&quot; title=&quot;origin&quot; src=&quot;/static/cb0cabde7383014722d2cb44c3912bf1/a6d36/origin.png&quot; srcset=&quot;/static/cb0cabde7383014722d2cb44c3912bf1/222b7/origin.png 163w,
-/static/cb0cabde7383014722d2cb44c3912bf1/ff46a/origin.png 325w,
-/static/cb0cabde7383014722d2cb44c3912bf1/a6d36/origin.png 650w,
-/static/cb0cabde7383014722d2cb44c3912bf1/e548f/origin.png 975w,
-/static/cb0cabde7383014722d2cb44c3912bf1/302a4/origin.png 1080w&quot; sizes=&quot;(max-width: 650px) 100vw, 650px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB9ElEQVQ4y41T2XLbMAzUl8S25EOndVHiIYqxnbQP/Y1Okv//gu0sFKmdaSfTBwwJgFxgsWSU5RV8uMNOAaOZkBc1suIqa5qVuKQF9vEJu33yXxbtD0eo0aJTBkXVCkiWX1GUjawseDylOCRnHOITkuMFySlF/OnHyW+fFvGAGp2AsrM0r5CXNYqqQVV3qBuFa9MvVvfit71e9q1CVffiN90gsYiog3boBysgrMqu2f7TLv6LEmNf2QbY9Vo6rdsB5bXD6Zz9AXzYLjD2lQnlQU8iyGg81GA38E5pocQRrKPgpX91vonCDjk/bWcBJXX6TTeKIOe0QJpVojYFowBsYhVoFUPseEEUiyhWuqMZF2CnZ1G9H4ysBKeRCYVYRHRynmfafhRhuBfKnBtBCCZ7fxPfzXf48IDzN4TbN7x8/yE5smBsCg9hRvPPL5jmOwFTjNZvgrCLBVjJRXbIGPPsZJmt2eIEYad8MlwFkEkeXOboNwC+rV4ZAWcxikRqzGsXpCCZLNSt5CI+j3F0mMMD4fYKbTy0mWBd2AqwIKmyCAFWsDVP42h4LtrFZ2R8exy+8WhtwHV0KJWFMn6jJJftLINfx7KCkcn6/yOXZfgwCj/tgLdJ42O2eHMa73aAbztU7YC6Wb5c/fn9CLB+SY6Dz4n/nfYL38Ozw3ZvrPAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;origin&quot; title=&quot;origin&quot; src=&quot;/static/c3495380bb884d900d267c232ab401ff/a6d36/origin.png&quot; srcset=&quot;/static/c3495380bb884d900d267c232ab401ff/222b7/origin.png 163w,
+/static/c3495380bb884d900d267c232ab401ff/ff46a/origin.png 325w,
+/static/c3495380bb884d900d267c232ab401ff/a6d36/origin.png 650w,
+/static/c3495380bb884d900d267c232ab401ff/e548f/origin.png 975w,
+/static/c3495380bb884d900d267c232ab401ff/97bfd/origin.png 1078w&quot; sizes=&quot;(max-width: 650px) 100vw, 650px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;
 &lt;ul&gt;
 &lt;li&gt;- request의 origin&lt;/li&gt;
@@ -169,8 +286,11 @@
 &lt;/ul&gt;
 &lt;/br&gt;
 &lt;h4 id=&quot;서버에서-access-control-allow-origin-세팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-access-control-allow-origin-%EC%84%B8%ED%8C%85&quot; aria-label=&quot;서버에서 access control allow origin 세팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서버에서 Access-Control-Allow-Origin 세팅&lt;/h4&gt;
-&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;javascript&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;res.&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;Access-Control-Allow-Origin&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;*&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;); &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-6 grvsc-t4tStz-2&quot;&gt;// CORS 허용, 모든 Origin 에서 오는 요청을 허용하므로 명시적 URL을 써주면 좋다.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;res.&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;Access-Control-Allow-Credentials&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;true&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;); &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-6 grvsc-t4tStz-2&quot;&gt;//쿠키 주고받기 허용&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;javascript&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;res.&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;Access-Control-Allow-Origin&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;*&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-6 grvsc-t4tStz-2&quot;&gt;// CORS 허용, 모든 Origin 에서 오는 요청을 허용하므로 명시적 URL을 써주면 좋다.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;res.&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-7 grvsc-t4tStz-5&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;Access-Control-Allow-Credentials&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-8 grvsc-t4tStz-10&quot;&gt;&amp;#39;true&amp;#39;&lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;span class=&quot;grvsc-tiszgT-1 grvsc-t4tStz-1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;grvsc-tiszgT-6 grvsc-t4tStz-2&quot;&gt;//쿠키 주고받기 허용&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;참고: &lt;a href=&quot;https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F&quot;&gt;https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F&lt;/a&gt;&lt;/p&gt;
 &lt;style class=&quot;grvsc-styles&quot;&gt;
   .grvsc-container {
