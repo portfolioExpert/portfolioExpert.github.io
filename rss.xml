@@ -1,4 +1,205 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 12 Dec 2022 13:50:46 GMT</lastBuildDate><item><title><![CDATA[CRA없이 React + TS 환경 구성하기]]></title><description><![CDATA[CRA 없이 React + TS 환경 구성하기 https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD…]]></description><link>https://portfolioexpert.github.io/blog/NoCRA/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/NoCRA/</guid><pubDate>Sat, 15 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;cra-없이-react--ts-환경-구성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cra-%EC%97%86%EC%9D%B4-react--ts-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;cra 없이 react  ts 환경 구성하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CRA 없이 React + TS 환경 구성하기&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 12 Dec 2022 14:30:30 GMT</lastBuildDate><item><title><![CDATA[NextJS 란]]></title><description><![CDATA[Next.js 1. NextJS 란? 공식 사이트: nextjs.org 생산용 React 프레임워크 대규모의 양산형 React 앱을 더 편리하게 구축할 수 있도록 많은 기능을 제공 ReactJS의 풀스택 프레임워크 2. 주요 기능 1. SSR…]]></description><link>https://portfolioexpert.github.io/blog/NextJS/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/NextJS/</guid><pubDate>Sat, 22 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;nextjs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nextjs&quot; aria-label=&quot;nextjs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Next.js&lt;/h1&gt;
+&lt;h2 id=&quot;1-nextjs-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-nextjs-%EB%9E%80&quot; aria-label=&quot;1 nextjs 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. NextJS 란?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공식 사이트: nextjs.org&lt;/li&gt;
+&lt;li&gt;생산용 React 프레임워크&lt;/li&gt;
+&lt;li&gt;대규모의 양산형 React 앱을 더 편리하게 구축할 수 있도록 많은 기능을 제공&lt;/li&gt;
+&lt;li&gt;ReactJS의 풀스택 프레임워크&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;2-주요-기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot;2 주요 기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 주요 기능&lt;/h2&gt;
+&lt;h4 id=&quot;1-ssr-기능으로-seo-향상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-ssr-%EA%B8%B0%EB%8A%A5%EC%9C%BC%EB%A1%9C-seo-%ED%96%A5%EC%83%81&quot; aria-label=&quot;1 ssr 기능으로 seo 향상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. SSR 기능으로 SEO 향상&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;콘텐츠가 많이 있는 공개 페이지인 경 검색 엔진 최적화가 중요&lt;/li&gt;
+&lt;li&gt;서버에서 해당 페이지를 사전 렌더링한 상태에서 서버에 요청이 들어 왔을 때 화면, 컴포넌트를 미리 렌더링 시켜 놓는다.&lt;/li&gt;
+&lt;li&gt;nextjs를 적용하면 첫 페이지 로딩 이후 SPA를 적용시킬 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;2-파일-기반-라우팅으로-라우팅-간소화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%ED%8C%8C%EC%9D%BC-%EA%B8%B0%EB%B0%98-%EB%9D%BC%EC%9A%B0%ED%8C%85%EC%9C%BC%EB%A1%9C-%EB%9D%BC%EC%9A%B0%ED%8C%85-%EA%B0%84%EC%86%8C%ED%99%94&quot; aria-label=&quot;2 파일 기반 라우팅으로 라우팅 간소화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 파일 기반 라우팅으로 라우팅 간소화&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;동적 라우팅, 중첩 라우팅을 지원한다.&lt;/li&gt;
+&lt;li&gt;SPA에서 적용했던 라우터 라이브러리를 nextjs로 적용시키는 것&lt;/li&gt;
+&lt;li&gt;HTML에서 여러개의 html을 사용해 페이지를 연결하는 것 처럼 라우팅 개념을 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;3-nextjs는-풀스택-프레임워크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-nextjs%EB%8A%94-%ED%92%80%EC%8A%A4%ED%83%9D-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC&quot; aria-label=&quot;3 nextjs는 풀스택 프레임워크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. NextJS는 풀스택 프레임워크&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;React에 백엔드 코드를 추가할 수 있다.&lt;/li&gt;
+&lt;li&gt;하나의 파일 내에서 nodeJS 문법으로 db연동과 API를 request할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3-프로젝트-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;3 프로젝트 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 프로젝트 만들기&lt;/h2&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;shell&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;$ npx create-next-app&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;$ npm install&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Create-next-app을 통해 프로젝트를 생성&lt;/li&gt;
+&lt;li&gt;npm install을 통해 package.json의 모듈을 node_modules로 생성&lt;/li&gt;
+&lt;li&gt;index.html이 없는 이유는 NextJS는 사전 렌더링 기능을 내장하기 때문이며 서버에 요청이 오면 이 싱글 페이지에 동적으로 사전 렌더링을 거 콘텐츠를 포함한 초기 페이지를 보여주게 됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;생성시 폴더 구조&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;&quot; data-index=&quot;1&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;-pages&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;-public&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;-styles&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;pages: 파일 기반 라우팅을 설정하고 애플리케이션을 구성할 여러 페이지를 정의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;4-nextjs에서-파일-렌더링&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-nextjs%EC%97%90%EC%84%9C-%ED%8C%8C%EC%9D%BC-%EB%A0%8C%EB%8D%94%EB%A7%81&quot; aria-label=&quot;4 nextjs에서 파일 렌더링 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. NextJS에서 파일 렌더링&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;하단에 폴더를 만들고 index.js를 두면 /폴더이름 호출시 라우팅 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;5-동적-페이지-추가-기능동적-라우팅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EB%8F%99%EC%A0%81-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%B6%94%EA%B0%80-%EA%B8%B0%EB%8A%A5%EB%8F%99%EC%A0%81-%EB%9D%BC%EC%9A%B0%ED%8C%85&quot; aria-label=&quot;5 동적 페이지 추가 기능동적 라우팅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 동적 페이지 추가 기능(동적 라우팅)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;파일 이름에 [ ]를 넣고 그 안에 식별자를 넣어준다.&lt;/li&gt;
+&lt;li&gt;그러면 기본 url 뒤에 여러 식별자가 붙어올 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;1-동적-매개변수-값-추출하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EB%8F%99%EC%A0%81-%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98-%EA%B0%92-%EC%B6%94%EC%B6%9C%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1 동적 매개변수 값 추출하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 동적 매개변수 값 추출하기&lt;/h4&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;react&quot; data-index=&quot;2&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;// our-domain.com/news&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;import { useRouter } from &amp;quot;next/router&amp;quot;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;function DetailPage() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;  const router = useRouter();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;  //대괄호에 넣었던 변수와 같은 변수를 query에 넣어준다&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;  const newsId = router.query.newsId;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;  return &amp;lt;h1&amp;gt;DetailPage&amp;lt;/h1&amp;gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;export default DetailPage;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;useRouter로 라우터 객체에 접근하고 라우터 객체에서 특정 데이터나 호출할 수 있는 특정 메소드를 얻을 수 있다.&lt;/li&gt;
+&lt;li&gt;또한 query를 통해 동적 경로 세그먼트의 구체적인 값에 접근할 수 있다.&lt;/li&gt;
+&lt;li&gt;라우터는 페이지를 처음 렌더링할 때 즉시 실행되는데 이 시점에서는 URL이 무엇인지 아직 모릅니다.&lt;/li&gt;
+&lt;li&gt;하지만 정보가 들어오면 다시 컴포넌트를 렌더링 시키고 구체적인 값을 얻는다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;2-nextjs에서-spa로-페이지-전환-시키기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-nextjs%EC%97%90%EC%84%9C-spa%EB%A1%9C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%84%ED%99%98-%EC%8B%9C%ED%82%A4%EA%B8%B0&quot; aria-label=&quot;2 nextjs에서 spa로 페이지 전환 시키기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. NextJS에서 SPA로 페이지 전환 시키기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a&gt;를 이용해 다른 링크로 넘어갈 때 새로고침 아이콘이 잠깐 X로 떳다가 새로고침 아이콘으로 돌아온다면 브라우저가 새 요청을 보내고 HTML 페이지를 받는다는 신호 입니다.&lt;/li&gt;
+&lt;li&gt;이때 상태를 관리하는 redux의 상태 context 상태 등이 없어질 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;grvsc-container github-light-theme grvsc-ps-t4tStz&quot; data-language=&quot;react&quot; data-index=&quot;3&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;// our-domain.com/news&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;import {Fragment} from &amp;#39;react&amp;#39;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;import Link from &amp;#39;next/link&amp;#39;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;function NewsPage() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;  return (&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;  &amp;lt;Fragment&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;    &amp;lt;h1&amp;gt;NewsPage&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;    &amp;lt;ul&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;      &amp;lt;li&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;        &amp;lt;Link href=&amp;quot;/news/nextjs-is-a-great-framework&amp;quot;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;          NextJS Is A Great Framework&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;          &amp;lt;/Link&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;        &amp;lt;/li&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;        &amp;lt;li&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;          Something Else&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;          &amp;lt;/li&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;    &amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;    &amp;lt;/Fragment&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;    )&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;grvsc-source&quot;&gt;export default NewsPage;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Link 태그를 통해 NextJS위에서 SPA를 적용 시키고 새로운 HTML을 받아오지 못하도록 해주며 불러올 컴포넌트를 읽어 들이고 URL을 변경시키고 페이지가 바뀐 것 처럼 보이게 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+  .github-light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .github-light-theme .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(0, 0, 0, 0.05));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(0, 0, 0, 0.2));
+  }
+  body[data-theme=dark] .grvsc-ps-t4tStz { color: #ffffff; }
+  body[data-theme=dark] .grvsc-ps-t4tStz .grvsc-line-highlighted::before {
+    background-color: var(--grvsc-line-highlighted-background-color, rgba(0, 0, 0, 0.05));
+    box-shadow: inset var(--grvsc-line-highlighted-border-width, 4px) 0 0 0 var(--grvsc-line-highlighted-border-color, rgba(0, 0, 0, 0.2));
+  }
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[CRA없이 React + TS 환경 구성하기]]></title><description><![CDATA[CRA 없이 React + TS 환경 구성하기 https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD…]]></description><link>https://portfolioexpert.github.io/blog/NoCRA/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/NoCRA/</guid><pubDate>Sat, 15 Oct 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;cra-없이-react--ts-환경-구성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cra-%EC%97%86%EC%9D%B4-react--ts-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;cra 없이 react  ts 환경 구성하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CRA 없이 React + TS 환경 구성하기&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/dashboard&quot;&gt;https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD/dashboard&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CRA로 React 환경을 자동 세팅하여 프로젝트를 진행했었지만 inflearn의 강의를 듣고 frontEnd 개발 환경의 이해와 직접 구현해보는 것의 중요성을 알게 되어 직접 구현 해보고자 한다.&lt;/p&gt;
 &lt;h6 id=&quot;참고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0&quot; aria-label=&quot;참고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고&lt;/h6&gt;
