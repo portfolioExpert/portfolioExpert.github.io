@@ -234,10 +234,18 @@ data-styled.g53[id="blogPost__Title-sc-1q4tilm-8"]{content:"jYIGYQ,"}/*!sc*/
 </ul>
 <h4 id="1-callback" style="position:relative;"><a href="#1-callback" aria-label="1 callback permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Callback</h4>
 <ul>
-<li>- 인자로 넘겨지는 함수</li>
-<li>- 다른 함수가 실행을 끝낸 뒤 실행되는 함수(나중에 호출되는 함수)</li>
-<li>- 함수를 등록해놓고 어떤 이벤트가 발생했거나 특정 시점에 도달했을 때 시스템에서 호출하는 함수</li>
-<li>- 파라미터로 함수를 전달받아 함수의 내부에서 실행</li>
+<li>
+<p>- 인자로 넘겨지는 함수</p>
+</li>
+<li>
+<p>- 다른 함수가 실행을 끝낸 뒤 실행되는 함수(나중에 호출되는 함수)</p>
+</li>
+<li>
+<p>- 함수를 등록해놓고 어떤 이벤트가 발생했거나 특정 시점에 도달했을 때 시스템에서 호출하는 함수</p>
+</li>
+<li>
+<p>- 파라미터로 함수를 전달받아 함수의 내부에서 실행</p>
+</li>
 </ul>
 <pre class="grvsc-container github-light-theme grvsc-ps-t4tStz" data-language="javascript" data-index="0"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">function</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-5">func</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(</span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">callback</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">) {</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">  </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-5">callback</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">()</span></span></span>
@@ -250,24 +258,43 @@ data-styled.g53[id="blogPost__Title-sc-1q4tilm-8"]{content:"jYIGYQ,"}/*!sc*/
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-6 grvsc-t4tStz-2">//결과: callback이다</span></span></span></code></pre>
 <h6 id="callback-사용이유" style="position:relative;"><a href="#callback-%EC%82%AC%EC%9A%A9%EC%9D%B4%EC%9C%A0" aria-label="callback 사용이유 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Callback 사용이유</h6>
 <ul>
-<li>- 자바스크립트 비동기 내장 함수로 비동기 프로그래밍을 할 수 있다</li>
-<li>- 자바스크립트는 싱글스레드를 사용하는데 멈춤을 방지해준다. 따라서 블록킹을 방지하여 싱글스레드가 논블록킹으로 동작하게 한다.</li>
+<li>
+<p>- 자바스크립트 비동기 내장 함수로 비동기 프로그래밍을 할 수 있다.</p>
+</li>
+<li>
+<p>- 자바스크립트는 싱글스레드를 사용하는데 멈춤을 방지해준다. 따라서 블록킹을 방지하여 싱글스레드가 논블록킹으로 동작하게 한다.</p>
+</li>
 </ul>
 <h6 id="콜백함수-사용유형" style="position:relative;"><a href="#%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98-%EC%82%AC%EC%9A%A9%EC%9C%A0%ED%98%95" aria-label="콜백함수 사용유형 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>콜백함수 사용유형</h6>
 <ul>
-<li>- 콜백함수는 이름 없는 익명의 함수를 사용</li>
-<li>- 자바스크립트는 null과 undefined 타입을 제외하고 모든것을 객체로 다루기 때문에 함수를 변수 또는 다른 함수의 변수처럼 사용가능하여 함수를 콜백함수로 사용할 경우 이름만 넘기면 된다.</li>
-<li>- 전역변수, 지역변수를 콜백함수의 파라미터로 전달 가능하다</li>
+<li>
+<p>- 콜백함수는 이름 없는 익명의 함수를 사용</p>
+</li>
+<li>
+<p>- 자바스크립트는 null과 undefined 타입을 제외하고 모든것을 객체로 다루기 때문에 함수를 변수 또는 다른 함수의 변수처럼 사용가능하여 함수를 콜백함수로 사용할 경우 이름만 넘기면 된다.</p>
+</li>
+<li>
+<p>- 전역변수, 지역변수를 콜백함수의 파라미터로 전달 가능하다</p>
+</li>
 </ul>
 <h6 id="콜백함수-주의할-점과-한계" style="position:relative;"><a href="#%EC%BD%9C%EB%B0%B1%ED%95%A8%EC%88%98-%EC%A3%BC%EC%9D%98%ED%95%A0-%EC%A0%90%EA%B3%BC-%ED%95%9C%EA%B3%84" aria-label="콜백함수 주의할 점과 한계 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>콜백함수 주의할 점과 한계</h6>
 <ul>
-<li>- this를 사용하여 콜백함수의 경우 파라미터의 모호함이 느껴질 수 있다</li>
-<li>- 콜백헬(함수의 전달이 너무 잦아 코드의 들여쓰기가 감당하기 어려워 난독성을 지닌 현상) -> Promise로 해결</li>
+<li>
+<p>- this를 사용하여 콜백함수의 경우 파라미터의 모호함이 느껴질 수 있다</p>
+</li>
+<li>
+<p>- 콜백헬(함수의 전달이 너무 잦아 코드의 들여쓰기가 감당하기 어려워 난독성을 지닌 현상) -> Promise로 해결</p>
+</li>
 </ul>
+</br>
 <h4 id="2-promise" style="position:relative;"><a href="#2-promise" aria-label="2 promise permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Promise</h4>
 <ul>
-<li>- 자바스크립트 비동기 처리에 사용되는 객체</li>
-<li>- Callback 함수의 에러/예외처리의 어려움, 중첩으로 인한 복잡도 증가의 단점을 해결하기 위해 ES6에서 지원하도록 등장</li>
+<li>
+<p>- 자바스크립트 비동기 처리에 사용되는 객체</p>
+</li>
+<li>
+<p>- Callback 함수의 에러/예외처리의 어려움, 중첩으로 인한 복잡도 증가의 단점을 해결하기 위해 ES6에서 지원하도록 등장</p>
+</li>
 </ul>
 <pre class="grvsc-container github-light-theme grvsc-ps-t4tStz" data-language="javascript" data-index="1"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">const</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-1">flag</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-1 grvsc-t4tStz-9">=</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-3">true</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">const</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-1">promise</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-1 grvsc-t4tStz-9">=</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-1 grvsc-t4tStz-9">new</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-1">Promise</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">((</span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">resolve</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">, </span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">reject</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">) </span><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">=&gt;</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> {</span></span></span>
@@ -277,8 +304,12 @@ data-styled.g53[id="blogPost__Title-sc-1q4tilm-8"]{content:"jYIGYQ,"}/*!sc*/
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">})</span></span></span></code></pre>
 <h6 id="promise의-3가지-상태" style="position:relative;"><a href="#promise%EC%9D%98-3%EA%B0%80%EC%A7%80-%EC%83%81%ED%83%9C" aria-label="promise의 3가지 상태 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Promise의 3가지 상태</h6>
 <ul>
-<li>- new Promise로 프로미스를 생성하고 3가지 상태를 갖는다</li>
-<li>- Pending(대기): 비동기 처리 로직이 아직 완료되지 않은 상태</li>
+<li>
+<p>- new Promise로 프로미스를 생성하고 3가지 상태를 갖는다</p>
+</li>
+<li>
+<p>- Pending(대기): 비동기 처리 로직이 아직 완료되지 않은 상태</p>
+</li>
 </ul>
 <pre class="grvsc-container github-light-theme grvsc-ps-t4tStz" data-language="javascript" data-index="2"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-9">new</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-1">Promise</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">() </span><span class="grvsc-tiszgT-6 grvsc-t4tStz-2">// 메서드 호출만하면 대기 상태</span></span></span></code></pre>
 <ul>
@@ -288,36 +319,61 @@ data-styled.g53[id="blogPost__Title-sc-1q4tilm-8"]{content:"jYIGYQ,"}/*!sc*/
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">  </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-5">resolve</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">()</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">})</span></span></span></code></pre>
 <ul>
-<li>Rejected(실패): 비동기 처리가 실패하거나 오류가 발생한 상태</li>
+<li>- Rejected(실패): 비동기 처리가 실패하거나 오류가 발생한 상태</li>
 </ul>
 <pre class="grvsc-container github-light-theme grvsc-ps-t4tStz" data-language="javascript" data-index="4"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-9">new</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-1">Promise</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(</span><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">function</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> (</span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">resolve</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">, </span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">reject</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">) {</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">  </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-5">reject</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">()</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">})</span></span></span></code></pre>
 <h6 id="promise-상태도" style="position:relative;"><a href="#promise-%EC%83%81%ED%83%9C%EB%8F%84" aria-label="promise 상태도 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Promise 상태도</h6>
-<p>![스크린샷 2023-06-05 오후 1.10.45](/Users/mac/Desktop/스크린샷 2023-06-05 오후 1.10.45.png)</p>
+<span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; ">
+      <span class="gatsby-resp-image-background-image" style="padding-bottom: 41.104294478527606%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABT0lEQVR42oWSzUsDMRDF9x/3IPgBokfBk/QgoqCePCqiJw8q3vxCqlBt1e62dpPdbDLJT5JalSr4YGDIvHnMy0wWQmAS06hNoCkOKdvLDG4XCfkmELl88af7Mh9AIiEVPSIecZbRe46zNcgA3/TwTZdg+0kg9viJaPCEIClinoEHJKlrrRgMNXX/iP71Am9X81RPLRrrsO7nHJHvxxP+eI15tnc/ZOW8R09bXFOngnfveNPF1c94+4qIo6oqdDkiVzWrlz1aVwXOQ1AX6O4uZWcb1AnZfsewdlPyVBqsqT4FS8S8pAg2T4Jaa6ypKbShdVey1dYY6wnqDN3doexsgTqOlr9RVZrBUCXLD+ez3J7OMHpcxzqHE/5Fsiwh4Pz35kTG/yPOUFeK4IZj23FaVyRO5IufXMfUUv5a/yRrLDTFAaq9RH49h7xt/DqbaXwAmfRoGUrktcwAAAAASUVORK5CYII='); background-size: cover; display: block;"></span>
+  <img class="gatsby-resp-image-image" alt="PromiseState" title="" src="/static/45ab45f5d84d45559352a5a1b4f5d8b8/a6d36/PromiseState.png" srcset="/static/45ab45f5d84d45559352a5a1b4f5d8b8/222b7/PromiseState.png 163w,
+/static/45ab45f5d84d45559352a5a1b4f5d8b8/ff46a/PromiseState.png 325w,
+/static/45ab45f5d84d45559352a5a1b4f5d8b8/a6d36/PromiseState.png 650w,
+/static/45ab45f5d84d45559352a5a1b4f5d8b8/e548f/PromiseState.png 975w,
+/static/45ab45f5d84d45559352a5a1b4f5d8b8/3c492/PromiseState.png 1300w,
+/static/45ab45f5d84d45559352a5a1b4f5d8b8/07a9c/PromiseState.png 1440w" sizes="(max-width: 650px) 100vw, 650px" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;" loading="lazy" decoding="async">
+    </span>
 <h6 id="promise-에러처리" style="position:relative;"><a href="#promise-%EC%97%90%EB%9F%AC%EC%B2%98%EB%A6%AC" aria-label="promise 에러처리 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Promise 에러처리</h6>
 <ul>
 <li>- .then, .catch로 처리하지만 가급적 .catch로 처리하는게 효율적</li>
 </ul>
+</br>
 <h4 id="3-async-await" style="position:relative;"><a href="#3-async-await" aria-label="3 async await permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Async await</h4>
 <ul>
-<li>- 비동기식 코드를 동기식으로 표현하여 간단하게 나타내는 것</li>
-<li>- Promise의 코드가 장황하다는 단점을 극복하기 위해 ES8에 도입된 비동기 처리 방식의 최신 문법이다.</li>
-<li>- async await는 Promise 객체를 반환한다.</li>
+<li>
+<p>- 비동기식 코드를 동기식으로 표현하여 간단하게 나타내는 것</p>
+</li>
+<li>
+<p>- Promise의 코드가 장황하다는 단점을 극복하기 위해 ES8에 도입된 비동기 처리 방식의 최신 문법이다.</p>
+</li>
+<li>
+<p>- async await는 Promise 객체를 반환한다.</p>
+</li>
 </ul>
 <pre class="grvsc-container github-light-theme grvsc-ps-t4tStz" data-language="javascript" data-index="5"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">async</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">function</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-5">함수명</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(){</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">  </span><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">await</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> 비동기처리 메소드명;</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">}</span></span></span></code></pre>
 <h6 id="async-함수" style="position:relative;"><a href="#async-%ED%95%A8%EC%88%98" aria-label="async 함수 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>async 함수</h6>
 <ul>
-<li>- async는 function 앞에 위치</li>
-<li>- function 앞에 async를 붙이면 해당 함수는 항상 프로미스를 반환</li>
-<li>- 프로미스가 아닌 값을 반환하더라도 이행 상태의 프로미스로 값을 감싸 이행된 프로미스가 반환되도록 한다.</li>
+<li>
+<p>- async는 function 앞에 위치</p>
+</li>
+<li>
+<p>- function 앞에 async를 붙이면 해당 함수는 항상 프로미스를 반환</p>
+</li>
+<li>
+<p>- 프로미스가 아닌 값을 반환하더라도 이행 상태의 프로미스로 값을 감싸 이행된 프로미스가 반환되도록 한다.</p>
+</li>
 </ul>
 <h6 id="await" style="position:relative;"><a href="#await" aria-label="await permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>await</h6>
 <ul>
-<li>- await는 async 함수 안에서만 동작한다.</li>
-<li>- 자바스크립트는 await 키워드를 만나면 프로미스가 처리(settled)될 때까지 기다리고, 결과는 그 이후 반환된다.</li>
+<li>
+<p>- await는 async 함수 안에서만 동작한다.</p>
+</li>
+<li>
+<p>- 자바스크립트는 await 키워드를 만나면 프로미스가 처리(settled)될 때까지 기다리고, 결과는 그 이후 반환된다.</p>
+</li>
 </ul>
 <pre class="grvsc-container github-light-theme grvsc-ps-t4tStz" data-language="javascript" data-index="6"><code class="grvsc-code"><span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">function</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-5">delay</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(</span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">ms</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">) {</span></span></span>
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">  </span><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">return</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-1 grvsc-t4tStz-9">new</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-10 grvsc-t4tStz-1">Promise</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(</span><span class="grvsc-tiszgT-11 grvsc-t4tStz-6">resolve</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-5 grvsc-t4tStz-9">=&gt;</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1"> </span><span class="grvsc-tiszgT-7 grvsc-t4tStz-1">setTimeout</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(resolve, ms))</span></span></span>
@@ -338,8 +394,12 @@ data-styled.g53[id="blogPost__Title-sc-1q4tilm-8"]{content:"jYIGYQ,"}/*!sc*/
 <span class="grvsc-line"><span class="grvsc-source"><span class="grvsc-tiszgT-7 grvsc-t4tStz-5">getBanana</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">().</span><span class="grvsc-tiszgT-7 grvsc-t4tStz-5">then</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">(</span><span class="grvsc-tiszgT-7 grvsc-t4tStz-3">console</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">.</span><span class="grvsc-tiszgT-7 grvsc-t4tStz-1">log</span><span class="grvsc-tiszgT-1 grvsc-t4tStz-1">) </span><span class="grvsc-tiszgT-6 grvsc-t4tStz-2">//결과: 바나나</span></span></span></code></pre>
 <h6 id="async--await-예외-처리" style="position:relative;"><a href="#async--await-%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC" aria-label="async  await 예외 처리 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>async &#x26; await 예외 처리</h6>
 <ul>
-<li>- async &#x26; await 에서 예외를 처리하는 방법은 try.. catch.. 구문을 사용하는 것</li>
-<li>- catch {}를 사용하면 된다.(Promise에서는 .catch() 사용)</li>
+<li>
+<p>- async &#x26; await 에서 예외를 처리하는 방법은 try.. catch.. 구문을 사용하는 것</p>
+</li>
+<li>
+<p>- catch {}를 사용하면 된다.(Promise에서는 .catch() 사용)</p>
+</li>
 </ul>
 <style class="grvsc-styles">
   .grvsc-container {
