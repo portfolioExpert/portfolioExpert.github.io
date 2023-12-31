@@ -1,4 +1,191 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 Jul 2023 05:37:26 GMT</lastBuildDate><item><title><![CDATA[npm과 yarn]]></title><description><![CDATA[npm vs yarn javascript package, 의존성 관리 매니저 npm과 yarn의 차이를 비교하고 정리한 것 참고 - https://www.daleseo.com/js-package-manager/ - https://velog.io…]]></description><link>https://portfolioexpert.github.io/blog/npm vs yarn/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/npm vs yarn/</guid><pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;npm-vs-yarn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#npm-vs-yarn&quot; aria-label=&quot;npm vs yarn permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;npm vs yarn&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apple Log's RSS Feed]]></title><description><![CDATA[사람들은 Y, 나에겐 Why]]></description><link>https://portfolioexpert.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 31 Dec 2023 07:36:03 GMT</lastBuildDate><item><title><![CDATA[Vue와 React의 차이점]]></title><description><![CDATA[Vue와 React의 차이점 참고 https://80000coding.oopy.io/f27f6183-0523-43e1-ab90-8f8175bd4a88 https://velog.io/@ctdlog/React-DOM%EC%9D%B4%EB%9E%8…]]></description><link>https://portfolioexpert.github.io/blog/Vue,React difference/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/Vue,React difference/</guid><pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;vue와-react의-차이점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vue%EC%99%80-react%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90&quot; aria-label=&quot;vue와 react의 차이점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vue와 React의 차이점&lt;/h2&gt;
+&lt;p&gt;참고&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://80000coding.oopy.io/f27f6183-0523-43e1-ab90-8f8175bd4a88&quot;&gt;https://80000coding.oopy.io/f27f6183-0523-43e1-ab90-8f8175bd4a88&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://velog.io/@ctdlog/React-DOM%EC%9D%B4%EB%9E%80-Virtual-DOM%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0&quot;&gt;https://velog.io/@ctdlog/React-DOM%EC%9D%B4%EB%9E%80-Virtual-DOM%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;vue&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vue&quot; aria-label=&quot;vue permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vue&lt;/h2&gt;
+&lt;h4 id=&quot;1-vue란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-vue%EB%9E%80&quot; aria-label=&quot;1 vue란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Vue란?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 웹 애플리케이션의 사용자 인터페이스를 만들기 위해 사용하는 오픈 소스 프로그레시브 자바스크립트 프레임워크이다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 다른 SPA 라이브러리보다 웹 애플리케이션 프로젝트에 도입하기 쉽게 설계되어 있는데 이유는 Vue는 라이브러리가 아닌 프레임워크이며 HTML, CSS, JS를 작성하는 공간이 vue파일 안에 분리되어 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;2-vue-장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-vue-%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;2 vue 장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Vue 장점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- React와 달리 양방향 데이터 바인딩 방식을 이용합니다. 즉, 화면에 표시되는 값과 프레임워크 모델 데이터 값이 동기화되어 한 쪽을 변경하면 다른 한 쪽도 자동으로 변경된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 컴포넌트 기반 프레임워크로 가상 DOM 렌더링 방식을 사용&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- HTML, CSS, JS만 알고 있어도 vue파일 안에 작성하는 공간이 분리되어 있어 접근성과 러닝커브가 적고 코드 가시성이 좋다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;가상 DOM 이란?&lt;/p&gt;
+&lt;p&gt;실제 DOM의 변경 사항을 빠르게 파악하고 반영하기 위해서 내부적으로 가상 DOM을 만들어서 관리하며 실제 DOM에 접근하며 조작하는 대신 추상화한 자바스크립트 객체를 구성하여 사용한다. DOM의 상태를 메모리에 저장하고 변경 전과 변경 후의 상태를 비교한 뒤 최소한의 내용만 반영하여 성능 향상을 이끌어 낸다. 즉, DOM의 상태를 메모리 위에 계속 올려두고, DOM에 변경이 있을 경우 해당 변경 사항만 반영하는 것&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;3-vue-단점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-vue-%EB%8B%A8%EC%A0%90&quot; aria-label=&quot;3 vue 단점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Vue 단점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 컴포넌트의 재사용성이 좋지 않아 버튼 하나를 만들 때 templete, script, style 각각 작성해야하는 단점이 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 타입스크립트 지원이 완벽하지 않다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 레퍼런스가 적고 프레임워크로 코드를 짤 때 일정한 틀이 있어 자유도가 떨어진다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;react&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#react&quot; aria-label=&quot;react permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;React&lt;/h2&gt;
+&lt;h4 id=&quot;1-react란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-react%EB%9E%80&quot; aria-label=&quot;1 react란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. React란?&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;- 리액트는 자바스크립트 SPA 라이브러리로 사용자 인터페이스를 만들기 위해 사용된다.&lt;/li&gt;
+&lt;li&gt;- 페이스북과 개별 개발자 및 기업들 공동체에 의해 유지보수 된다.&lt;/li&gt;
+&lt;li&gt;- 대규모 또는 복잡한 애플리케이션 개발에는 보통 라우팅, API통신 등 추가적인 라이브러리를 채택해여 사용해야한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;2-react-장점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-react-%EC%9E%A5%EC%A0%90&quot; aria-label=&quot;2 react 장점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. React 장점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;- 가상 DOM을 사용하여 갱신되는 싱글 페이지 애플리케이션의 리플로우와 리페인트를 최소화 함으로서 성능을 최적화 시킨다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;리플로우, 리페인트는?&lt;/p&gt;
+&lt;p&gt;Url:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 컴포넌트 기반의 아키텍처를 가지고 있어, 재사용 가능한 컴포넌트를 생산성과 유지 보수를 용이하게 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 단방향 데이터 바인딩으로 안정성이 보장된다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- React 공식문서 가이드를 통해 레퍼런스가 많아 자료를 쉽게 접하고 배울 수 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- Typescript의 지원이 원활하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;3-react-단점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-react-%EB%8B%A8%EC%A0%90&quot; aria-label=&quot;3 react 단점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. React 단점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- 앱의 규모가 커지면 속도가 느려진다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- View 이외의 데이터 모델링 등은 직접 구현하거나 라이브러리를 사용해야 하고 jsx(js +XML)을 사용하여 javascript에 대한 지식이 필요하다&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 데이터 모델링, Ajax 등의 기능이 지원되지 않는다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- Vue와 가장 큰 차이점은 태그안에 적용되는 프로퍼티의 용어 차이가 있다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- Vue에 비해 러닝커브가 높다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;결론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%B0%EB%A1%A0&quot; aria-label=&quot;결론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;결론&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;- Vue는 빠르게 개발하고 프로젝트 규모가 작으며 javascript에 지식이 많이 없다면 추천하며 프로젝트 규모가 크고, javascript에 익숙하며 컴포넌트 재사용성이 많다면 추천한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;- 또한, 자유도 측면에서 흰 도화지에 자유롭게 그림을 그리고 싶으면 React 아니라면 Vue를 추천한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  .grvsc-container {
+    overflow: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top, var(--grvsc-padding-v, 1rem));
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom, var(--grvsc-padding-v, 1rem));
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius, 8px);
+    font-feature-settings: normal;
+    line-height: 1.4;
+  }
+  
+  .grvsc-code {
+    display: table;
+  }
+  
+  .grvsc-line {
+    display: table-row;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+  }
+  
+  .grvsc-line &gt; * {
+    position: relative;
+  }
+  
+  .grvsc-gutter-pad {
+    display: table-cell;
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  .grvsc-gutter {
+    display: table-cell;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter::before {
+    content: attr(data-content);
+  }
+  
+  .grvsc-source {
+    display: table-cell;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem));
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right, var(--grvsc-padding-h, 1.5rem));
+  }
+  
+  .grvsc-source:empty::after {
+    content: &apos; &apos;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .grvsc-gutter + .grvsc-source {
+    padding-left: 0.75rem;
+    padding-left: calc(var(--grvsc-padding-left, var(--grvsc-padding-h, 1.5rem)) / 2);
+  }
+  
+  /* Line transformer styles */
+  
+  .grvsc-has-line-highlighting &gt; .grvsc-code &gt; .grvsc-line::before {
+    content: &apos; &apos;;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .grvsc-line-diff-add::before {
+    background-color: var(--grvsc-line-diff-add-background-color, rgba(0, 255, 60, 0.2));
+  }
+  
+  .grvsc-line-diff-del::before {
+    background-color: var(--grvsc-line-diff-del-background-color, rgba(255, 0, 20, 0.2));
+  }
+  
+  .grvsc-line-number {
+    padding: 0 2px;
+    text-align: right;
+    opacity: 0.7;
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[npm과 yarn]]></title><description><![CDATA[npm vs yarn javascript package, 의존성 관리 매니저 npm과 yarn의 차이를 비교하고 정리한 것 참고 - https://www.daleseo.com/js-package-manager/ - https://velog.io…]]></description><link>https://portfolioexpert.github.io/blog/npm vs yarn/</link><guid isPermaLink="false">https://portfolioexpert.github.io/blog/npm vs yarn/</guid><pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;npm-vs-yarn&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#npm-vs-yarn&quot; aria-label=&quot;npm vs yarn permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;npm vs yarn&lt;/h2&gt;
 &lt;p&gt;javascript package, 의존성 관리 매니저 npm과 yarn의 차이를 비교하고 정리한 것&lt;/p&gt;
 &lt;p&gt;참고&lt;/p&gt;
 &lt;ul&gt;
